@@ -1,4 +1,4 @@
-<html>
+<html >
 <head>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/FontAwesome/css/all.css">
@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Registrate</title>
 </head>
 <body>
     <header>
@@ -36,24 +37,40 @@
         </li>
     </ul>
     </header>
-    <main class="prueba">
-       <h2 class="tituloClientes">Nuestros proyectos mas vendidos</h2>
-
-       <section class="contenedor3">
-        <div class="row">
-            <div class="column">
-                <img src="/Images/grid/1.png" alt="" class="imgs">
-                <img src="/Images/grid/2.jpg" alt=""class="imgs">
-                <img src="/Images/grid/7.jpg" alt=""class="imgs">
-            </div>
-            <div class="column">
-                <img src="/Images/grid/4.jpg" alt=""class="imgs">
-                <img src="/Images/grid/5.jpg" alt=""class="imgs">
-                <img src="/Images/grid/6.png" alt=""class="imgs">
-            </div>
+    <main>
+        <div class="Cuadrao2">
+            <div class="rect2">
+                <div class="Form2">
+                    <form>
+                        <div class="Container2">
+                            <label for="USUARIO" class="usuario2">Email</label>
+                            <input type="text" id="Email" placeholder="Ingrese su email" class="inputUsuario2">
+                            <label for="USUARIO" class="usuario2">Repita su email</label>
+                            <input type="text" id="Email" placeholder="Ingrese su email" class="inputUsuario2">
+                            <!-- Que mas se pide en un registro? -->
+                            <label for="USUARIO" class="usuario2">Usuario</label>
+                            <input type="text" id="Email" placeholder="Ingrese su usuario" class="inputUsuario2">
+                            
+                        </div>
+                        <div class="Container2">
+                            <label for="Password" class="usuario2" >Contraseña</label>
+                            <input type="Password" id="Password" placeholder="Ingrese su contraseña" class="inputUsuario2">
+                            <label for="Password" class="usuario2" >Repita su contraseña</label>
+                            <input type="Password" id="Password" placeholder="Ingrese su contraseña" class="inputUsuario2">
+                        </div>
+                        <div class="checks">
+                            <div><input type="checkbox" name="robot" id="robot">No soy un robot</div>
+                            <div><input type="checkbox" name="spam" id="spam">Desea recibir correo basura que nunca va a leer?</div>
+                            <div><input type="checkbox" name="acuerdo" id="acuerdo">Esta de acuerdo con nuestra <a href="https://www.youtube.com/watch?v=KnHmoA6Op1o" target="_blank">POLITICA DE PRIVACIDAD</a></div>
+                            
+                        </div>
+                        <button id="ingreso2">Crear cuenta</button>
+                    </form>
+                </div>
         </div>
-       </section>
-       <footer>
+    </main>
+   
+    <footer>
         <h3 class="tituloFoot">Nuestras Redes</h3>
         <p class="derechos">
             Todos los contenidos de este Sitio (Incluyendo, pero no limitado a, 
@@ -69,11 +86,5 @@
             </ul>
        </div>
     </footer>
-
-   
-
-    </main>
-    
-   
 </body>
 </html>
